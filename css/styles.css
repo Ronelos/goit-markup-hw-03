@@ -10,6 +10,23 @@ body{
     color: #212121;
     background-color: #fff;
     font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+ul {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .list {
@@ -19,6 +36,13 @@ body{
 .link {
     text-decoration: none;
 }
+.container {
+    width: 1230x; 
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+  
+}
 .button-cursor {
     cursor: pointer;
 }
@@ -26,10 +50,16 @@ body{
 /* header */
 
 .header {
-    outline: 2px solid tomato;
+    
+    
+
     
 
 }
+.nav-container {
+    display: flex;
+}
+
 
 .header-logo {
     font-family: 'Raleway', sans-serif;
@@ -38,6 +68,10 @@ body{
     line-height: 1.19;
     letter-spacing: 0.03em;
     color: #000;
+    
+    
+   
+    
 }
 
 .header-logo-color {
@@ -45,7 +79,8 @@ body{
 }
 
 .header-list {
-    
+  display: flex;  
+  
    
 }
 
@@ -54,6 +89,10 @@ body{
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
+
+}
+.header-item + .header-item {
+    margin-left: 50px;
 }
 
 .header-link {
@@ -73,6 +112,13 @@ body{
     line-height: 1.14;
     letter-spacing: 0.02em;
 }
+.header-contacts-list {
+    display: flex;
+   
+}
+.header-contacts-item + .header-contacts-item {
+
+}
 
 .header-contacts:hover, .header-contacts:focus {
     color: var(--secondary-text-color);
@@ -82,7 +128,8 @@ body{
 
 .hero {
     background-color: #2F303A;
-    outline: 2px solid tomato;
+   padding-top: 200px;  
+   padding-bottom: 200px;     
 }
 
 .hero-title {
@@ -93,8 +140,16 @@ body{
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: #fff;
+    
+}
+
+.hero-text {
+    margin: 0 auto;
+    align-items: center;
+  
 }
 .hero-button {
+    border-radius: 4px;
     font-weight: bold;
     font-size: 16px;
     line-height: 1.87;
@@ -104,11 +159,16 @@ body{
     letter-spacing: 0.06em;
     background-color: var(--secondary-text-color);
     color: white;
+    margin: 0 auto;
+    margin-top: 30px;
+    padding: 10px 32px;
+    text-decoration: none;
     }
 
     /* dignity */
     .dignity {
-        outline: 2px solid tomato;
+        
+        width: 1600px;
     }
 
 .dignity-title {
@@ -127,7 +187,7 @@ body{
 }
 /* work */
 .work {
-    outline: 2px solid tomato;
+   
 }
 .work-title {
     font-weight: bold;
@@ -139,7 +199,7 @@ body{
 }
 
     .work-list {
-        outline: 2px solid tomato;
+       
     }
     .work-item {
 
@@ -151,7 +211,7 @@ body{
 
    /* team */
    .team {
-    outline: 2px solid tomato;
+    
    }
 
 .team-title {
@@ -179,7 +239,7 @@ color: var(--main-text-color);
 
 .footer {
     background-color: var(--main-title-color);
-    outline: 2px solid tomato;
+    
 }
 
 .footer-logo {
