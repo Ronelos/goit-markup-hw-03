@@ -50,11 +50,7 @@ p {
 /* header */
 
 .header {
-    
-    
-
-    
-
+  
 }
 .nav-container {
     display: flex;
@@ -79,7 +75,7 @@ p {
 }
 
 .header-list {
-  display: flex;  
+  
   
    
 }
@@ -113,7 +109,7 @@ p {
     letter-spacing: 0.02em;
 }
 .header-contacts-list {
-    display: flex;
+   
    
 }
 .header-contacts-item + .header-contacts-item {
@@ -166,9 +162,14 @@ p {
     }
 
     /* dignity */
-    .dignity {
-        
-        width: 1600px;
+
+.dignity {
+    
+    
+    }
+
+.dignity-item {
+
     }
 
 .dignity-title {
@@ -178,16 +179,22 @@ p {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--main-title-color);
+    margin-bottom: 10px;
+    padding-top: 94px;
 }
 .dignity-text {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: var(--main-text-color);
+    display: flex;
 }
+
 /* work */
 .work {
-   
+  text-align: center;
+  display: flex;
+  padding-top: 94px;
 }
 .work-title {
     font-weight: bold;
@@ -196,9 +203,15 @@ p {
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--main-title-color);
+ 
+    
+    
 }
 
     .work-list {
+    
+    align-items: center;
+
        
     }
     .work-item {
@@ -211,22 +224,32 @@ p {
 
    /* team */
    .team {
-    
+    outline: 1px solid red;
+    text-align: center;
+    align-items: center;
+    display: flex;
    }
 
-.team-title {
+.team-title-logo {
     font-weight: bold;
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--main-title-color);
+    text-align: center;
 }
-.team-title-employee {
+.team-title {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
     letter-spacing: 0.03em;
+    padding-bottom: 10px;
+    
+}
+.team-img {
+padding-bottom: 30px;
+
 }
 
 .team-text {
