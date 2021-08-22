@@ -2,10 +2,8 @@
     --main-title-color: #212121;
     --main-text-color: #757575;
     --secondary-text-color: #2196F3;
-    
-    
- 
-}
+     }
+
 body{
     color: #212121;
     background-color: #fff;
@@ -68,8 +66,6 @@ p {
     margin-left: 93px;
 }
 
-
-
 .header-logo {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
@@ -86,9 +82,7 @@ p {
 
 .header-list > .header-item :not(:last-chield) {
     margin-right: 50px;
-  
-  
-   
+    
 }
 
 .header-item {
@@ -96,9 +90,8 @@ p {
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-
-
 }
+
 .header-item + .header-item {
     margin-left: 50px;
 }
@@ -128,9 +121,9 @@ p {
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-      
-   
-}
+  }
+
+
 .header-contacts.link {
     color: var(--main-text-color);
     display: block;
@@ -151,9 +144,9 @@ p {
 
 .hero {
     background-color: #2F303A;
-   padding-top: 200px;  
-   padding-bottom: 200px;
-   text-align: center;     
+    padding-top: 200px;  
+    padding-bottom: 200px;
+    text-align: center;     
 }
 
 .hero-title {
@@ -199,13 +192,8 @@ p {
 .dignity {
     padding-top: 94px;
     padding-bottom: 47px; 
-    
-    
-    }
-
-    /* .dignity-item + .dignity-item {
-        margin-left: 30px;
-    } */
+       
+    }  
    .dignity-list > .dignity-item :not(:last-chield) {
        margin-right: 30px;} 
     
@@ -218,6 +206,7 @@ p {
 .dignity-item {
     width: 270px;
     height: 101px;
+    margin-right: 30px;
     }
 
 .dignity-title {
@@ -252,28 +241,22 @@ p {
     letter-spacing: 0.03em;
     color: var(--main-title-color);
     margin-bottom: 50px;
- 
-    
-    
+     
 }
 
     .work-list {
       display: flex;
-       
-        
-
-       
+             
     }
+
+
     .work-item + .work-item  {
         margin-left: 30px;
 
     }
+         
+     /* team */
 
-    
-      
-      
-
-   /* team */
    .team {
     background-color: #F5F4FA;
     text-align: center;
@@ -281,6 +264,8 @@ p {
     padding-bottom: 94px;
     padding-top: 94px;
    }
+
+
   .team-item {
       display: inline-block;
       padding-bottom: 30px;
@@ -298,7 +283,7 @@ p {
   }
 
 
-.team-title-logo {
+    .team-title-logo {
     font-weight: bold;
     font-size: 36px;
     line-height: 1.17;
@@ -308,7 +293,8 @@ p {
     text-align: center;
     margin-bottom: 50px;
 }
-.team-title {
+
+    .team-title {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
@@ -316,8 +302,9 @@ p {
     margin-bottom: 10px;
     
 }
-.team-img {
-margin-bottom: 30px;
+
+    .team-img {
+        margin-bottom: 30px;
 
 }
 
@@ -327,12 +314,12 @@ line-height: 1.19;
 letter-spacing: 0.03em;
 color: var(--main-text-color);
 }
+
 /* footer */
 
 .footer {
     background-color: var(--main-title-color);
-    
-    
+        
 }
 
 .footer-logo {
@@ -384,35 +371,20 @@ margin-bottom: 9px;
 
 .navigation {
     align-content: center;
-    
+    padding-bottom: 94px;
+    padding-top: 94px;
+            
 }
 
 .navigation-list {
     background-color: #fff;
     display: flex;
-    padding-top: 94px;
     justify-content: center;
     margin-bottom: 50px;
-   
-    
-  
+      
     
 }
-/* .hero-button {
-    display: inline-block;
-    border-radius: 4px;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.87;
-    text-align: center;
-    letter-spacing: 0.06em;
-    background-color: var(--secondary-text-color);
-    color: white;
-    margin: 0 auto;
-    margin-top: 30px;
-    padding: 10px 32px;
-    text-decoration: none;
-    border: 1px solid transparent; */
+
     
 .navigation-item {
    
@@ -422,8 +394,6 @@ margin-bottom: 9px;
     margin-left: 8px;
    
 }
-
-
 
 
 .navigation-button {
@@ -438,15 +408,17 @@ margin-bottom: 9px;
     border: 1px solid transparent;
     border-radius: 4px;
     margin: 0 auto;
-    margin-top: 30px;
     padding: 6px 22px;
     text-decoration: none;
     border: 1px solid transparent; 
 }
+
+
 .navigation-button:hover, .navigation-button:focus {
     color: #fff;
     background-color: var(--secondary-text-color);
 }
+
 /* working */
 
 img {
@@ -462,17 +434,17 @@ img {
 
 .working-list .working-item :not(:last-chield) {
     margin-right: 30px;
+       
 }
 
 .working-list {
-  padding-bottom: 94px; 
-  display: flex;
+   display: flex;
   flex-wrap: wrap;
   padding: 0;
   margin: 0;
-  
- 
-}
+  }
+
+
 .working-item {
     
     max-height:  404px;
@@ -481,11 +453,7 @@ img {
     background-color: #fff;
     padding-bottom: 20px;
     outline: 1px solid #eee;
-
-
-       
-    
-}
+ }
 
 
 .working-title {
@@ -493,8 +461,6 @@ img {
     margin-left: 20px;
     margin-right: 20px;
     margin-top: 20px;
-
-
 }
 
 .working-text {
@@ -502,6 +468,7 @@ img {
     margin-left: 20px;
     margin-right: 20px;
     margin-top: 20px;
+    
 }
 
 
